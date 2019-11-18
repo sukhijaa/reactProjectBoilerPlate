@@ -1,0 +1,12 @@
+.my-test-class-item-wrapper {
+  width: 100%;
+  font-size: 100px;
+  animation-name: moveMyDivFromLeftToRight;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moveMyDivFromLeftToRight {
+  from {transform: translateX(0)}
+  to {transform: translateX(100%)}
+}
